@@ -1,0 +1,24 @@
+{
+  "name": "react-watermark-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^16.0.0",
+    "watermarkjs": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyy1115/react-watermark-module.git"
+  },
+  "author": "hyy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyy1115/react-watermark-module/issues"
+  },
+  "homepage": "https://github.com/hyy1115/react-watermark-module#readme"
+}
