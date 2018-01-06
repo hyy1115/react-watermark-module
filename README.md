@@ -8,6 +8,14 @@ React水印组件，支持图片水印，文字水印。
 npm i --save react-watermark-module
 ```
 
+### 用法
+
+```javascript
+import ReactWatermark from 'react-watermark-module'
+const imagePath = require('imagePath.png')
+const logoPath = require('logoPath.jpg')
+```
+
 ### 文字水印
 
 1、支持左上、左下、右上、右下、居中等位置
