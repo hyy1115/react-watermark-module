@@ -19,11 +19,11 @@ class ReactWatermark extends React.Component {
         if (!!textPosition.length) {
             var [textX, textY] = textPosition
         }
-        if (logoPath == null) console.warn('logoPath是水印的路径，请使用require或import导入')
         if (imagePath == null) console.warn('imagePath是背景图片，请使用require或import导入')
         if (type === 'text') {
             this.watermarkText(ID, textData, font, transparent, color, _textPosition, textX, textY, imagePath)
         } else if (type === 'logo') {
+            if (logoPath == null) console.warn('logoPath是水印的路径，请使用require或import导入')
             this.watermarkImage(ID, transparent, textPosition, textX, textY, logoPath, imagePath)
         } else {
             throw Error('type必须是text、logo之一，也许你忘记设置它了。')
